@@ -1,0 +1,36 @@
+VIDEO – 1
+
+https://www.youtube.com/watch?v=ul96dslvVwY&list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC&index=2
+
+Kubernetes is a container orchestration platform, Docker is a containerization tool, and a container is the lightweight runtime unit that holds your application and its dependencies. They work together but serve distinct roles.
+🧭 Kubernetes vs Docker vs Container: Core Differences
+		
+🧱 What is a Container?
+•	A container packages an application and its dependencies into a single unit.
+•	It runs consistently across environments (dev, test, prod).
+•	Examples: Nginx container, Python app container.
+
+🐳 What is Docker?
+•	Docker is a container engine that builds and runs containers.
+•	It uses Dockerfiles to define images and Docker CLI to manage them.
+•	Docker simplifies development and testing by isolating environments.
+
+☸️ What is Kubernetes?
+•	Kubernetes is a container orchestration system.
+•	It automates deployment, scaling, and management of containerized applications.
+•	It works with container engines like containerd, CRI-O, or Docker (deprecated).
+
+🧪 How They Work Together
+1.	Docker builds and runs containers.
+2.	Containers hold your app and run on nodes.
+3.	Kubernetes manages those containers across a cluster:
+•	Ensures availability
+•	Restarts failed containers
+•	Scales up/down based on load
+•	Handles networking and storage
+
+🔁 Summary Analogy
+•	Container = The app in a sealed box.
+•	Docker = The machine that builds and runs the box.
+•	Kubernetes = The warehouse manager that places, monitors, and scales boxes across shelves.
+
